@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 /**
- *
  * main - main block
  *
  * Return: 0
  */
 
 int main(void)
-
+/**
+ * program that prints the size of various types
+ */
 {
 
 		printf("Size of a char: %i byte(s)\n", sizeof(char));
