@@ -25,6 +25,11 @@ void times_table(void)
 				_putchar((dgt % 10) + '0');
 			}
 
+			else if (dgt < 1 && col < 1)
+			{
+				_putchar(dgt + '0');
+			}
+
 			else
 			{
 				_putchar(' ');
