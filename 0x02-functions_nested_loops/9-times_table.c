@@ -18,17 +18,26 @@ void times_table(void)
 		for (col = 0; col <= 9; col++)
 		{
 			dgt = (row * col);
+
 			if (dgt > 9 )
 			{
 				_putchar((dgt / 10) + '0');
 				_putchar((dgt % 10) + '0');
 			}
+
 			else
 			{
 				_putchar(' ');
 				_putchar(dgt + '0');
 			}
-			if (col < 9)
+
+			if (col > 0 && col < 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+
+			else if (col <=)
 			{
 				_putchar(',');
 				_putchar(' ');
