@@ -4,7 +4,7 @@
 /**
  * rev_string - reverses string
  * @s: input
- * Return: 
+ * Return: not.
  */
 
 void rev_string(char *s)
@@ -22,7 +22,7 @@ void rev_string(char *s)
 		len++;
 	}
 	l = len - 1;
-	
+
 	for ( ; e < ((l / 2) + 1) ; e++)
 	{
 		x = (l - e);
