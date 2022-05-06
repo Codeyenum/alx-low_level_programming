@@ -21,6 +21,6 @@ void print_to_98(int n)
 		printf("%i, ", n);
 		n--;
 	}
-	printf ("98");
+	printf("98");
 	putchar('\n');
 }
