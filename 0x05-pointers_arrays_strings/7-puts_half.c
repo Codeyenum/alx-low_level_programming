@@ -21,7 +21,7 @@ void puts_half(char *str)
 	}
 
 	n = len / 2;
-	m = n + 1;				    
+	m = n + 1;
 
 	if (len % 2 == 0)
 	{
