@@ -22,7 +22,7 @@ void print_array(int *a, int n)
 
 	while (len < n)
 	{
-		printf("%d ", a[len]);
+		printf("%d\n", a[len]);
 		len++;
 	}    
 }
