@@ -8,7 +8,7 @@
  * @argv: array that contains the program command line arguments.
  * Return: 0 - success.
  */
-/*
+
 int main(int argc, char *argv[])
 
 {
@@ -29,31 +29,4 @@ int main(int argc, char *argv[])
 	printf("%d\n", add);
 
 	return (0);
-}*/
-
-int main(int argc, char *argv[])
-{
-	int i, res;
-
-	if (argc < 2)
-	{
-		printf("0\n");
-		return (1);
-	}
-	for (i = 1; i < argc; i++)
-	{
-		if (atoi(argv[i]) < '0' || atoi(argv[i]) > '9')
-		{
-			printf("Error\n");
-			return (1);
-		}
-		else
-		{
-			res += atoi(argv[i]);
-		}
-		printf("%d\n", res);
-		return (0);
-	}
-
-	return 0;
 }
