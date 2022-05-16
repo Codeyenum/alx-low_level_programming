@@ -42,18 +42,17 @@ int main(int argc, char *argv[])
 	}
 	for (i = 1; i < argc; i++)
 	{
-		if (atoi(argv[i]) > '0' && atoi(argv[i]) < '9')
-		{
-			res += atoi(argv[i]);
-		}
-		printf("%d\n", res);
-		return(0);
-
-		else
+		if (!(atoi(argv[i]) > '0' && atoi(argv[i]) < '9'))
 		{
 			printf("Error\n");
 			return (1);
 		}
+		else
+		{
+			res += atoi(argv[i]);
+		}
+		printf("Error\n");
+		return (1);
 	}
 
 	return 0;
