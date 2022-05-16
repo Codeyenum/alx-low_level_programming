@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
 
 int main(int argc, char *argv[])
 {
-	int i, re;
+	int i, res;
 
 	if (argc < 2)
 	{
