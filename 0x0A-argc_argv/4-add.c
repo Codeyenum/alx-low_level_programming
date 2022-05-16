@@ -45,7 +45,10 @@ int main(int argc, char *argv[])
 		if (atoi(argv[i]) > '0' && atoi(argv[i]) < '9')
 		{
 			res += atoi(argv[i]);
-		}						 
+		}
+		printf("%d\n", res);
+		return(0);
+
 		else
 		{
 			printf("Error\n");
